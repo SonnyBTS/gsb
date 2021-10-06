@@ -1,0 +1,40 @@
+body {
+	height: 100%;
+	width: 100%;
+	color: #000;
+	background: #fff;
+	display: flex;
+}
+
+.menu {
+	height: 100%;
+	height: 175px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+}
+
+.content h1 {
+	color: #4682B4;
+	margin-top: 0;
+}
+
+.content form {
+	color: #fff;
+	background-color: #4682B4;
+}
+
+.content form h2 {
+	margin-top: 0;
+}
+
+.content form .field {
+	display: flex;
+}
+
+.content form .field label,
+.content form .field div:first-child {
+	width: 175px;
+}
